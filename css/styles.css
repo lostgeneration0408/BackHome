@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-@media (max-width: 390px) and (max-height: 844px){
+@media (max-width: 390px) and (max-height: 844px)
+          
+{
     h1{
         
         font-size: 1.5rem !important;
@@ -15,7 +17,42 @@
     }
 }
 
+@media (max-width: 414px) and (max-height: 896px)     
 
+{
+    h1{
+        
+        font-size: 1.5rem !important;
+        
+    }
+
+    .big-text{
+        font-size: 1.5rem !important;
+    }
+
+    .countdown-el{
+        font-size: 1.5rem !important;
+    }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px){
+    
+    h1{
+        
+        font-size: 1.5rem !important;
+        
+    }
+
+    .big-text{
+        font-size: 1.5rem !important;
+    }
+
+    .countdown-el{
+        font-size: 1.5rem !important;
+    }
+}
 
 
 
@@ -63,4 +100,5 @@ h1{
 .countdown-el span{
     font-size: 1.3rem;
 }
+
 
